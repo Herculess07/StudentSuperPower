@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/learning"
+        android:icon="@drawable/ic_bulb"
+        android:title="@string/learn" />
+
+    <item
+        android:id="@+id/myDesk"
+        android:icon="@drawable/ic_my_desk"
+        android:title="@string/my_desk" />
+
+</menu>

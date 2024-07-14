@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">StudentSuperPower</string>
+    <string name="learning">Learning</string>
+    <string name="learn">Learn</string>
+    <string name="my_desk">My Desk</string>
+    <string name="welcome_info">Student Superpower : a system of AI Agents to assist 360° in your Learning</string>
+    <string name="_welcome">Personalised Learning for every student</string>
+    <string name="help_message">To help you I need to understand you..</string>
+    <string name="image">Image</string>
+    <string name="start">Start</string>
+    <string name="standard">Standard</string>
+    <string name="enter_your_name">Enter your name here</string>
+    <string name="enter_name">What name I should call you ?</string>
+    <string name="select_standard">Standard you’re studying in ?</string>
+    <string name="select_subject">Subjects you want to study</string>
+    <string name="maths">Maths</string>
+    <string name="science">Science</string>
+    <string name="english">English</string>
+    <string name="social_science">Social Science</string>
+    <string name="gujarati">Gujarati</string>
+
+    <string-array name="Standards">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layout_et_stroke"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtEt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:backgroundTint="@android:color/transparent"
+            android:importantForAutofill="no"
+            android:includeFontPadding="false"
+            android:inputType="textPersonName|textNoSuggestions"
+            android:paddingVertical="26dp"
+            android:paddingStart="36dp"
+            android:paddingEnd="16dp"
+            android:textColorHint="@color/hintNumber"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/imgPrevious"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:hint="Enter Your Mobile Number.."
+            tools:ignore="LabelFor"
+            tools:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imgPrevious"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="22dp"
+            android:background="@color/black"
+            android:clickable="true"
+            android:contentDescription="@string/image"
+            android:focusable="true"
+            android:src="@drawable/baseline_keyboard_arrow_right_24"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
